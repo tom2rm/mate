@@ -1,0 +1,61 @@
+1.-#programa para realizar la suma de dos valores
+direccion = "Miraflores 234 INT A"
+edad = [28, 24, 27, 32, 30]
+altura = 1.7
+esEstudiante = False # True (Boolean)
+print ("edad = ", edad [0] , "y mi altura es de", altura , "y vivo en", direccion)
+
+compañeroClase = "Tommy"
+compañeroClase = "Miguel"
+compañeroClase = "Valentin"
+compañerosClase = ["tommy", "Miguel", "valentin"] #Lista
+apellido = "Barrientos"
+
+print("compañero de clase", compañerosClase [1])
+print ("apellido", apellido)
+
+2.-compañerosClase = ["tommy", "Miguel", "valentin"]
+for unCompañero in compañerosClase:
+    print(unCompañero)
+print("ADIOS")
+
+3.-#Mostrar la suma de los numeros
+#suma = E1 + (E2 + E3 + E4..+E6)
+listaNumeros = [98563, 500, 20, 600, 87, 96]
+suma = 0
+for unNumero in listaNumeros:
+    suma = suma + unNumero - suma
+print(suma)
+for unNumero in listaNumeros:
+    suma = suma + unNumero - suma * suma
+print(suma)
+for unNumero in listaNumeros:
+    suma = suma / unNumero * suma + suma
+print(suma)
+
+#Mostrar la diferencia de primer numero con la suma de los demas
+#diferencia = E1 - (E2 + E3 +E4.. +E6)
+
+4.-Numeros = [8499, 82, 29, 327, 560]
+suma = 0
+for unNumero in Numeros:
+    suma = suma + unNumero * suma + suma
+print(suma)
+
+5.-#Mostrar la suma de los numeros
+#suma = E1 + (E2 + E3 + E4..+E6)
+listaNumeros = [98563, 500, 20, 600, 87, 96]
+suma = 0
+primerNumero = listaNumeros[0]
+print("primerNumero |  unNumero  |")
+print("===========================")
+for unNumero in listaNumeros:
+    suma = suma + unNumero
+    print(primerNumero, "  |   ",unNumero)
+    primerNumero = primerNumero - unNumero
+
+print(primerNumero)
+print(listaNumeros[0] + primerNumero)
+
+#Mostrar la diferencia de primer numero con la suma de los demas
+#diferencia = E1 - (E2 + E3 +E4.. +E6)
